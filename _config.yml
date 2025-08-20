@@ -1,0 +1,36 @@
+# Jekyll Configuration for Mikan-Assist AI Project
+
+# Site settings
+title: "Mikan-Assist AI"
+description: "AI-powered CRM and customer relationship management system for micro-entrepreneur farmers"
+url: "https://hazimariyu.github.io"
+baseurl: "/toyamamikan"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files and directories from processing
+exclude:
+  - node_modules
+  - backend/node_modules
+  - frontend/node_modules
+  - backend/dist
+  - backend/coverage
+  - frontend/.next
+  - frontend/out
+  - "*.log"
+  - "*.lock"
+  - package-lock.json
+  - yarn.lock
+  - .git
+  - .gitignore
+  - .env
+  - .env.local
+  - .env.production
+  - .env.test
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
