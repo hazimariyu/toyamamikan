@@ -10,7 +10,7 @@ export default function Home() {
         {/* Header */}
         <header className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-800 mb-2">
-            🍊 Mikan-Assist AI
+            🍊 分身の返信
           </h1>
           <p className="text-lg text-gray-600">
             農家向け AI 返信文提案システム
