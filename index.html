@@ -76,10 +76,28 @@
         <li>顧客サマリー自動生成 ✅</li>
         <li>感情分析による対応調整 ✅</li>
         <li>購買履歴の自動抽出 ✅</li>
-        <li>AI返信文提案 ✅</li>
+        <li>AI返信文提案 ✅ <strong>← スマホ対応完了！</strong></li>
         <li>顧客タグ管理 ⏳</li>
         <li>スマート予約システム ⏳</li>
       </ul>
+    </div>
+
+    <div class="card">
+      <h2>📱 スマホでの使い方</h2>
+      <div style="padding-left: 1rem; margin-top: 1rem;">
+        <p><strong>🌐 オンライン版（GitHub Pages）:</strong></p>
+        <p style="margin-left: 1rem; margin-bottom: 1rem;">→ 「管理画面デモ」ボタンから、静的版UIを確認可能</p>
+        
+        <p><strong>📱 フル機能版（ローカル環境）:</strong></p>
+        <ol style="padding-left: 2rem; margin-top: 0.5rem;">
+          <li>PCで開発環境起動（backend: port 3333, frontend: port 3000）</li>
+          <li>スマホのブラウザで <code>http://[PCのIPアドレス]:3000</code> を開く</li>
+          <li>顧客メッセージを入力またはサンプルをタップ</li>
+          <li>設定（顧客・トーン）を任意選択</li>
+          <li>「🤖 提案生成」でAI返信文を生成</li>
+          <li>「📋 コピー」でLINE/メール等に貼り付け</li>
+        </ol>
+      </div>
     </div>
 
     <div class="card">
@@ -96,7 +114,7 @@
 
     <div class="links">
       <a href="./backend/">Backend API を見る</a>
-      <a href="#demo" onclick="alert('管理画面はローカル環境で動作します。\n\n1. バックエンド: npm start (port 3333)\n2. フロントエンド: npm run dev (port 3000)\n\n詳しくはGitHubをご覧ください！')">🤖 管理画面デモ</a>
+      <a href="./app/" target="_blank">🤖 管理画面デモ (静的版)</a>
       <a href="https://github.com/hazimariyu/toyamamikan" target="_blank">GitHub リポジトリ</a>
     </div>
 
